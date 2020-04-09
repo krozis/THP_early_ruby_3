@@ -10,7 +10,7 @@ Week 1 - Day 3
 	* Combien contiennent au moins une majuscule ? __OK__
 	* Combien y a-t-il de underscore _ dans tous les pseudos confondus ? __OK__
 	* Trie la liste de handle par ordre alphabétique. __OK__
-	* Quels sont les 50 handles les plus courts de ce array ?
+	* Quels sont les 50 handles les plus courts de ce array ? __OK__
 	* Quelle est la position dans l'array de la personne @epenser ? __OK__
 
 * 01_cryptocurrencies.rb
