@@ -18,6 +18,8 @@ def menu_choice_checker(choice)
 		return "count_total_underscores"
 	when "7"
 		return "alphabetic_order"
+	when "8"
+		return "get_fifty_littlest"
 	when "9"
 		return "get_position_epenser"
 	when "quit"
@@ -109,6 +111,11 @@ def count_names_with_an_uppercase
 		end
 	end
 	count
+end
+
+def get_fifty_littlest
+	puts($list.sort_by { |x| x.length}[1..50])
+	return ""
 end
 
 def get_position_epenser
